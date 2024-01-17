@@ -1,7 +1,6 @@
 import 'package:e_commerce_yebelo_adarsh/pages/product_list_page.dart';
 import 'package:flutter/material.dart';
 
-
 void main() {
   runApp(MyApp());
 }

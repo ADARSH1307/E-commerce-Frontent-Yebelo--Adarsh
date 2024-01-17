@@ -9,10 +9,13 @@ class ProductService {
     return products;
   }
 
-  static List<Map<String, dynamic>> filterProductsByCategory(String category, List<Map<String, dynamic>> products) {
+  static List<Map<String, dynamic>> filterProductsByCategory(
+      String category, List<Map<String, dynamic>> products) {
     if (category.isEmpty) {
       return products;
     }
-    return products.where((product) => product['p_category'] == category).toList();
+    return products
+        .where((product) => product['p_category'] == category)
+        .toList();
   }
 }

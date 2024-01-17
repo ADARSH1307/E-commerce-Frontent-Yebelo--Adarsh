@@ -140,7 +140,7 @@ class _ProductListPageState extends State<ProductListPage> {
       ),
       body: Column(
         children: [
-          // Category selection dropdown
+         
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Row(
